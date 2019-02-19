@@ -11,7 +11,7 @@ public class Exercise4 {
 	
 	public static void main (String[] args)  throws InterruptedException {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\Web_drivers\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		
 		String submitButton_tagName;
